@@ -21,7 +21,7 @@
             $options = array(
 
                 PDO::ATTR_PERSISTENT => true,
-                PDO::ATTR_ERRMODE = PDO::ERRMODE_EXCEPTION
+                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 
             );
 
@@ -59,7 +59,7 @@
                     case is_bool($value):
 
                         $type = PDO::PARAM_BOOL;
-                        break
+                        break;
 
                     case is_null($value):
 
@@ -89,14 +89,14 @@
         public function resultset(){
 
             $this->execute();
-            return $this->stmt->fetchAll(PDO:PDO::FETCH_OBJ);
+            return $this->stmt->fetchAll(PDO::FETCH_OBJ);
 
         }
 
         public function single(){
 
             $this->execute();
-            return $this->stmt->fetch(PDO:PDO::FETCH_OBJ);
+            return $this->stmt->fetch(PDO::FETCH_OBJ);
 
         }
 

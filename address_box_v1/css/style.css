@@ -11,3 +11,14 @@
     list-style-type: none;
     padding: 0;
 }
+
+
+#loader_gif{
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 37%;
+    width: 100px;
+    /*z-index: 100;*/
+    margin: 50px auto 50px auto;
+}

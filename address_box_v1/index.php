@@ -18,8 +18,19 @@
             </div>
 
         </div><!--row-->
-        <?php require_once "inc/table_contacts.php";?>
-    </div><!-- container-->
+
+        <!--Loading gif-->
+        <div id="loader_gif">
+            <img src="img/lodaing.gif" alt="">
+        </div>
+
+        <!--Main Content-->
+        <div id="page_content"></div>
+
+
+        <!--   load inc/table_contacts.php from ajax call in app js   -->
+        <?php //require_once "inc/table_contacts.php";?>
+    </div><!-- container-->-->
 
 <?php require_once "inc/add_contact_modal.php";?>
 <?php require_once "inc/footer.php";?>
