@@ -1,3 +1,18 @@
+<?php require_once '../core/init.php' ?>
+
+<?php
+
+//Create DB object
+$db = new DB();
+
+//Run query
+$db->query('SELECT * FROM contacts');
+
+print_r($db->resultset());
+die();
+
+?>
+
 <div class="row col-md-12">
     <table class="table">
         <thead>

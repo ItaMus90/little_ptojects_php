@@ -30,7 +30,7 @@
 
         <!--   load inc/table_contacts.php from ajax call in app js   -->
         <?php //require_once "inc/table_contacts.php";?>
-    </div><!-- container-->-->
+    </div><!-- container-->
 
 <?php require_once "inc/add_contact_modal.php";?>
 <?php require_once "inc/footer.php";?>
